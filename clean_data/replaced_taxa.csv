@@ -1,0 +1,248 @@
+domain,kingdom,phylum,subphylum,class,subclass,order,suborder,family,subfamily,tribe,genus,species,subspecies,taxon_name,levels_replaced
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,NA,NA,NA,NA,NA,NA,NA,Diptera, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,NA,NA,NA,NA,NA,NA,Brachycera, subphylum
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Brachycera,aff. Drosophilidae,NA,NA,NA,NA,NA,aff. Drosophilidae,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Anisopodidae,Anisopodinae,NA,Olbiogaster,NA,NA,Olbiogaster, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Anisopodidae,NA,NA,NA,NA,NA,Anisopodidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Axymyiidae,NA,NA,NA,NA,NA,Axymyiidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,Canacidae,NA,NA,NA,NA,NA,Canacidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Cecidomyiidae,NA,NA,NA,NA,NA,Cecidomyiidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Ceratopogonidae,Forcipomyiinae,NA,Atrichopogon,NA,NA,Atrichopogon, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Ceratopogonidae,Ceratopogoninae,Culicoidini,Culicoides,NA,NA,Culicoides, subphylum tribe
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Ceratopogonidae,Forcipomyiinae,NA,Forcipomyia,NA,NA,Forcipomyia, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Ceratopogonidae,Ceratopogoninae,Stilobezziini,Stilobezzia,NA,NA,Stilobezzia, subphylum tribe
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Ceratopogonidae,Ceratopogoninae,Palpomyiini,Bezzia,NA,NA,Bezzia, subphylum tribe
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Ceratopogonidae,Ceratopogoninae,Sphaeromiini,Sphaeromias,NA,NA,Sphaeromias, subphylum tribe
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Ceratopogonidae,NA,NA,NA,NA,NA,Ceratopogonidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Coleoptera,NA,NA,NA,NA,NA,NA,NA,Coleoptera, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Ceratopogonidae,Forcipomyiinae,NA,NA,NA,NA,Forcipomyiinae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Ceratopogonidae,Ceratopogoninae,NA,NA,NA,NA,Ceratopogoninae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Ceratopogonidae,Leptoconopinae,NA,NA,NA,NA,Leptoconopinae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Chironominae,Chironomini,Chironomus,NA,NA,Chironomus, subphylum tribe
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Orthocladiinae,NA,Corynoneura,NA,NA,Corynoneura, subphylum
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Orthocladiinae,NA,Gravatamberus,NA,NA,Gravatamberus,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Orthocladiinae,NA,Limnophyes,NA,NA,Limnophyes, subphylum
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Orthocladiinae,NA,Phytotelmatocladius,Phytotelmatocladius_delarosai,NA,Phytotelmatocladius_delarosai,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Chironominae,Chironomini,Polypedilum,NA,NA,Polypedilum, subphylum tribe
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,NA,NA,NA,NA,NA,Chironomidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Orthocladiinae,NA,NA,NA,NA,Orthocladiinae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Chironominae,Chironomini,Harnischia,NA,NA,Harnischia, subphylum tribe
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Tanypodinae,Pentaneurini,Larsia,NA,NA,Larsia, subphylum tribe
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Chironominae,Tanytarsini,Tanytarsus,NA,NA,Tanytarsus, subphylum tribe
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Tanypodinae,NA,NA,NA,NA,Tanypodinae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Tanypodinae,Pentaneurini,Monopelopia,NA,NA,Monopelopia, subphylum tribe
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Chironominae,NA,Polypedilum,Polypedilum_marcondesi,NA,Polypedilum_marcondesi,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Chironominae,NA,Polypedilum,Polypedilum_kaingang,NA,Polypedilum_kaingang,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Chironominae,NA,Stenochironomus,Stenochironomus_atlanticus,NA,Stenochironomus_atlanticus,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Orthocladiinae,NA,Metriocnemus,NA,NA,Metriocnemus, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Orthocladiinae,NA,Rheocricotopus,NA,NA,Rheocricotopus, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Chironominae,NA,NA,NA,NA,Chironominae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Sciaridae,NA,NA,NA,NA,NA,Sciaridae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Coleoptera,Polyphaga,NA,NA,NA,NA,NA,NA,Polyphaga, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Coleoptera,Adephaga,Dytiscidae,NA,NA,NA,NA,NA,Dytiscidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Coleoptera,Adephaga,Dytiscidae,Copelatinae,NA,Copelatus,Copelatus_bimaculatus,NA,Copelatus_bimaculatus, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Orthocladiinae,NA,Eukiefferiella,NA,NA,Eukiefferiella, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Orthocladiinae,NA,Smittia,NA,NA,Smittia, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Podonominae,NA,Boreochlus,NA,NA,Boreochlus, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Chironominae,Tanytarsini,Paratanytarsus,NA,NA,Paratanytarsus, subphylum tribe
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Chironominae,Tanytarsini,Stempellinella,NA,NA,Stempellinella, subphylum tribe
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Chironominae,NA,Tanytarsus,Tanytarsus_bromelicola,NA,Tanytarsus_bromelicola,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Corethrellidae,Corethrellinae,NA,Corethrella,Corethrella_fulva,NA,Corethrella_fulva,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Corethrellidae,Corethrellinae,NA,Corethrella,NA,NA,Corethrella, subphylum
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Corethrellidae,Corethrellinae,NA,Corethrella,Corethrella_infuscata,NA,Corethrella_infuscata,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Coleoptera,Adephaga,Dytiscidae,Hydroporinae,Methlini,Celina,NA,NA,Celina, subphylum tribe
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Corethrellidae,NA,NA,NA,NA,NA,Corethrellidae,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Corethrellidae,Corethrellinae,NA,Corethrella,Corethrella_belkini,NA,Corethrella_belkini,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Anophelinae,NA,Anopheles,Anopheles_cruzzi,NA,Anopheles_cruzzi,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Anophelinae,NA,Anopheles,Anopheles_homunculus,NA,Anopheles_homunculus, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,Culicini,Culex,Culex_(Microculex) imitator,NA,Culex_imitator, subphylum tribe
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Culex,Culex_albipes,NA,Culex_albipes,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Culex,Culex_aphylactus,NA,Culex_aphylactus,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Culex,Culex_inimitabilis,NA,Culex_inimitabilis,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,Culicini,Culex,NA,NA,Culex, subphylum tribe
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,Culicini,Culex,Culex_(Microculex) stonei,NA,Culex_stonei, subphylum tribe
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Toxorhynchites,Toxorhynchites_solstitiales,NA,Toxorhynchites_solstitiales,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Toxorhynchites,NA,NA,Toxorhynchites, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,Sabethini,Wyeomyia,NA,NA,Wyeomyia, subphylum tribe
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Wyeomyia,Wyeomyia_palmata,NA,Wyeomyia_palmata,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Culex,Culex_(Microculex) shopei,NA,Culex_shopei,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Culex,Culex_(Microculex) worontzowi,NA,Culex_worontzowi,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Culex,Culex_(Microculex) aphylactus,NA,Culex_aphylactus,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Culex,Culex_(Microculex) davisi,NA,Culex_davisi,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Runchomyia,Runchomyia_frontosa,NA,Runchomyia_frontosa,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Wyeomyia,Wyeomyia_(Phoniomyia) pallidoventer,NA,Wyeomyia_pallidoventer,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Culex,Culex_(Microculex) daumasturus,NA,Culex_daumasturus,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Wyeomyia,Wyeomyia_forcipenis,NA,Wyeomyia_forcipenis,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Culex,Culex_(Microculex) siphanulatus,NA,Culex_siphanulatus,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Culex,Culex_(Microculex) albipes,NA,Culex_albipes,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Culex,Culex_(Microculex) carioca,NA,Culex_carioca,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Culex,Culex_(Microculex) neglectus,NA,Culex_neglectus,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Culex,Culex_(Microculex) hedys,NA,Culex_hedys,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,NA,NA,NA,NA,NA,Culicidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Anophelinae,NA,Anopheles,Anopheles_bellator,NA,Anopheles_bellator, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,Sabethini,Limatus,Limatus_durhami,NA,Limatus_durhami, subphylum tribe
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Wyeomyia,Wyeomyia_(Phoniomyia) edwardsi,NA,Wyeomyia_edwardsi,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Wyeomyia,Wyeomyia_(Phoniomyia) mulhensi,NA,Wyeomyia_mulhensi,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Wyeomyia,Wyeomyia_(Phoniomyia) theobaldi,NA,Wyeomyia_theobaldi,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,Aedini,Aedes,Aedes_albopictus,NA,Aedes_albopictus, subphylum tribe
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,Aedini,Haemagogus,NA,NA,Haemagogus, subphylum tribe
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Anophelinae,NA,Anopheles,Anopheles_kompii,NA,Anopheles_kompii,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Anophelinae,NA,Anopheles,Anopheles_neivai,NA,Anopheles_neivai, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,Orthopodmyiini,Orthopodomyia,NA,NA,Orthopodomyia, subphylum tribe
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Wyeomyia,Wyeomyia_abebela,NA,Wyeomyia_abebela,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Wyeomyia,Wyeomyia_circumcincta,NA,Wyeomyia_circumcincta,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Wyeomyia,Wyeomyia_melanopus,NA,Wyeomyia_melanopus,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Coleoptera,Polyphaga,Elmidae,NA,NA,NA,NA,NA,Elmidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,Sabethini,Wyeomyia,Wyeomyia_pseudopecten,NA,Wyeomyia_pseudopecten, subphylum tribe
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Culex,Culex_daumastocampa,NA,Culex_daumastocampa,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Culex,Culex_jenningsi,NA,Culex_jenningsi,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,Culicini,Culex,Culex_rejector,NA,Culex_rejector, subphylum tribe
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Wyeomyia,Wyeomyia_greyii,NA,Wyeomyia_greyii,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Anophelinae,NA,NA,NA,NA,Anophelinae, subphylum
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Toxorhynchites,Toxorhynchites_purpureus,NA,Toxorhynchites_purpureus,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Toxorhynchites,Toxorhynchites_trichopygus,NA,Toxorhynchites_trichopygus,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,Sabethini,Wyeomyia,Wyeomyia_splendida,NA,Wyeomyia_splendida, subphylum tribe
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,Sabethini,Wyeomyia,Wyeomyia_aphobema,NA,Wyeomyia_aphobema, subphylum tribe
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,Sabethini,Wyeomyia,Wyeomyia_forattinii,NA,Wyeomyia_forattinii, subphylum tribe
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,Aedini,Aedes,NA,NA,Aedes, subphylum tribe
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Coleoptera,Polyphaga,Hydrophilidae,NA,NA,NA,NA,NA,Hydrophilidae, subphylum
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Toxorhynchites,Toxorhynchites_portoricensis,NA,Toxorhynchites_portoricensis,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Culex,Culex_antillummagnorum,NA,Culex_antillummagnorum,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Toxorhynchites,Toxorhynchites_guadeloupensis,NA,Toxorhynchites_guadeloupensis, subphylum
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Culex,Culex_bisulcatus,NA,Culex_bisulcatus,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,Dolichopodidae,NA,NA,NA,NA,NA,Dolichopodidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,Empididae,NA,NA,NA,NA,NA,Empididae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,Ephydridae,NA,NA,NA,NA,NA,Ephydridae, subphylum
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Coleoptera,Polyphaga,Hydrophilidae,Sphaeridiinae,NA,NA,NA,adult,Sphaeridiinae_adult,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Limoniidae,Limoniinae,NA,Trentepohlia,NA,NA,Trentepohlia, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Limoniidae,Limoniinae,NA,NA,NA,NA,Limoniinae, subphylum
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Coleoptera,Polyphaga,Hydrophilidae,Sphaeridiinae,NA,NA,NA,larva,Sphaeridiinae_larva,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,Periscelididae,NA,NA,NA,NA,NA,Periscelididae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,Phoridae,NA,NA,NA,NA,NA,Phoridae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Psychodidae,NA,NA,NA,NA,NA,Psychodidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Psychodidae,Psychodinae,NA,Pericoma,NA,NA,Pericoma, subphylum
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Psychodidae,Psychodinae,NA,Psychoda,Psychoda_romeroii,NA,Psychoda_romeroii,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Coleoptera,Polyphaga,Hydrophilidae,Sphaerodinae,NA,NA,NA,NA,Sphaerodinae,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Psychodidae,Psychodinae,NA,Telmatoscopus,NA,NA,Telmatoscopus, subphylum
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Coleoptera,Polyphaga,Hydrophilidae,Sphaeridiinae,NA,Omicrus,Omicrus_ingens,adult,Omicrus_ingens_adult,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Psychodidae,Psychodinae,NA,Alepia,Alepia_zavortinkii,NA,Alepia_zavortinkii,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Psychodidae,Psychodinae,NA,Alepia,Alepia_apexalba,NA,Alepia_apexalba,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Scatopsidae,NA,NA,NA,NA,NA,Scatopsidae, subphylum
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Coleoptera,Polyphaga,Hydrophilidae,Sphaeridiinae,NA,Omicrus,Omicrus_ingens,larva,Omicrus_ingens_larva,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,Sphaeroceridae,NA,NA,NA,NA,NA,Sphaeroceridae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,Stratiomyidae,NA,NA,NA,NA,NA,Stratiomyidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,Stratiomyidae,Hermetiinae,NA,Hermetia,NA,NA,Hermetia, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,Syrphidae,Eristalinae,Volucellini,Copestylum,NA,NA,Copestylum, subphylum tribe
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Brachycera,Syrphidae,Eristalinae,NA,Lejops,Lejops_barbiellinii,NA,Lejops_barbiellinii,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Brachycera,Syrphidae,Eristalinae,NA,Meromacrus,NA,NA,Meromacrus,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,Syrphidae,NA,NA,NA,NA,NA,Syrphidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,Syrphidae,Eristalinae,Eristalini,Eristalis,NA,NA,Eristalis, subphylum tribe
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,Syrphidae,Eristalinae,NA,NA,NA,NA,Eristalinae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,Syrphidae,Eristalinae,Eristalini,Palpada,NA,NA,Palpada, subphylum tribe
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Brachycera,Syrphidae,Eristalinae,NA,Quichuana,NA,NA,Quichuana,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,Syrphidae,Syrphinae,Pipizini,Pipiza,NA,NA,Pipiza, subphylum tribe
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Brachycera,Syrphidae,Eristalinae,NA,Xilota,NA,NA,Xilota,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Coleoptera,Polyphaga,Lampyridae,NA,NA,NA,NA,NA,Lampyridae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,Tabanidae,NA,NA,NA,NA,NA,Tabanidae, subphylum
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Brachycera,Tabanidae,Pangoniinae,NA,Fidena,Fidena_rufopilosa,NA,Fidena_rufopilosa,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Brachycera,Tabanidae,Tabaninae,NA,Stibasoma,Stibasoma_bicolor,NA,Stibasoma_bicolor,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,Tabanidae,Tabaninae,Diachlorini,Leucotabanus,NA,NA,Leucotabanus, subphylum tribe
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Brachycera,Tabanidae,Tabaninae,NA,Stibasoma,Stibasoma_fulvohirtum,NA,Stibasoma_fulvohirtum,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Coleoptera,Polyphaga,Ptilodactylidae,NA,NA,NA,NA,NA,Ptilodactylidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Thaumaleidae,NA,NA,NA,NA,NA,Thaumaleidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Limoniidae,Chioneinae,NA,Cheilotrichia,NA,NA,Cheilotrichia, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Tipulidae,NA,NA,NA,NA,NA,Tipulidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Tipulidae,Tipulinae,NA,Tipula,NA,NA,Tipula, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Limoniidae,Chioneinae,NA,Ormosia,NA,NA,Ormosia, subphylum
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Limoniidae,Chioneinae,NA,Rhabdomastrix,NA,NA,Rhabdomastrix,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Tipulidae,Tipulinae,NA,Brachypremna,NA,NA,Brachypremna, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Tipulidae,Tipulinae,NA,NA,NA,NA,Tipulinae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Tipulidae,Ctenophorinae,NA,NA,NA,NA,Ctenophorinae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Coleoptera,Polyphaga,Scirtidae,NA,NA,Scirtes,NA,NA,Scirtes, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Limoniidae,Hexatominae,NA,NA,NA,NA,Hexatominae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Limoniidae,Limoniinae,NA,Limonia,NA,NA,Limonia, subphylum
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Limoniidae,Limoniinae,NA,Trentepohlia,Trentepohlia_dominicana,NA,Trentepohlia_dominicana,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Limoniidae,NA,NA,NA,NA,NA,Limoniidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,NA,NA,NA,NA,NA,NA,Nematocera, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,Syrphidae,Syrphinae,Syrphini,Ocyptamus,NA,NA,Ocyptamus, subphylum tribe
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Coleoptera,Polyphaga,Scirtidae,NA,NA,NA,NA,NA,Scirtidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,Aulacigastridae,Aulacigastrinae,NA,Aulacigaster,NA,NA,Aulacigaster, subphylum
+Eukaryota,Animalia,Annelida,NA,Clitellata,Oligochaeta,Haplotaxida,Tubificina,Naididae,NA,NA,NA,NA,NA,Naididae,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Hemiptera,Heteroptera,Veliidae,NA,NA,NA,NA,NA,Veliidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Hemiptera,Heteroptera,Gerridae,NA,NA,NA,NA,NA,Gerridae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Hemiptera,Heteroptera,Mesoveliidae,NA,NA,NA,NA,NA,Mesoveliidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Hemiptera,Heteroptera,Veliidae,Microveliinae,NA,Microvelia,NA,NA,Microvelia, subphylum subfamily
+Eukaryota,Animalia,Annelida,NA,Clitellata,Hirudinea,NA,NA,NA,NA,NA,NA,NA,NA,Hirudinea,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Lepidoptera,NA,NA,NA,NA,NA,NA,NA,Lepidoptera, subphylum
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Paleoptera,Odonata,Zygoptera,Coenagrionidae,NA,NA,Oreiallagma,Oreiallagma_oreas,NA,Oreiallagma oreas,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Paleoptera,Odonata,Zygoptera,Coenagrionidae,NA,NA,NA,NA,NA,Coenagrionidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Paleoptera,Odonata,Zygoptera,Coenagrionidae,NA,NA,Leptagrion,Leptagrion_andromache,NA,Leptagrion_andromache, subphylum
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Paleoptera,Odonata,Zygoptera,Coenagrionidae,NA,NA,Leptagrion,Leptagrion_bocainense,NA,Leptagrion_bocainense,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Paleoptera,Odonata,Zygoptera,Coenagrionidae,NA,NA,Leptagrion,Leptagrion_elongatum,NA,Leptagrion_elongatum, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Paleoptera,Odonata,Zygoptera,NA,NA,NA,NA,NA,NA,Zygoptera, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Paleoptera,Odonata,Zygoptera,Pseudostigmatidae,NA,NA,Mecistogaster,Mecistogaster_modesta,NA,Mecistogaster_modesta, subphylum
+Eukaryota,Animalia,Annelida,NA,Clitellata,Oligochaeta,NA,NA,NA,NA,NA,NA,NA,NA,Oligochaeta,
+Eukaryota,Animalia,Annelida,NA,Clitellata,Oligochaeta,Haplotaxida,Lumbricina,Aeolosomatidae,NA,NA,Aelosoma,NA,NA,Aelosoma,
+Eukaryota,Animalia,Annelida,NA,Clitellata,Oligochaeta,Haplotaxida,Tubificina,Enchytraeoidae,NA,NA,NA,NA,NA,Enchytraeoidae,
+Eukaryota,Animalia,Annelida,NA,Clitellata,Oligochaeta,Haplotaxida,Tubificina,Naididae,Naidinae,NA,Dero,NA,NA,Dero,
+Eukaryota,Animalia,Annelida,NA,Clitellata,Oligochaeta,Haplotaxida,Tubificina,Naididae,Naidinae,NA,Dero,Dero_(Aulophorus) superterrenus,NA,Dero_superterrenus,
+Eukaryota,Animalia,Annelida,NA,Clitellata,Oligochaeta,Haplotaxida,Tubificina,Naididae,Naidinae,NA,Aulophorus,Aulophorus_superterrenus,NA,Aulophorus_superterrenus,
+Eukaryota,Animalia,Annelida,NA,Clitellata,Oligochaeta,Haplotaxida,Tubificina,Naididae,Pristininae,NA,Pristina,NA,NA,Pristina,
+Eukaryota,Animalia,Annelida,NA,Clitellata,Oligochaeta,Haplotaxida,Tubificina,Naididae,Pristininae,NA,Pristina,Pristina_osborni,NA,Pristina_osborni,
+Eukaryota,Animalia,Arthropoda,Crustacea,Ostracoda,Podocopa,Podocopida,Cypridocopina,Candonidae,Candoninae,NA,Latinopsis,NA,NA,Latinopsis,
+Eukaryota,Animalia,Arthropoda,Crustacea,Ostracoda,Podocopa,Podocopida,Cypridocopina,Candonidae,Candoninae,NA,Candonopsis,Candonopsis_kingsleyi,NA,Candonopsis_kingsleyi,
+Eukaryota,Animalia,Arthropoda,Crustacea,Ostracoda,Podocopa,Podocopida,Cypridocopina,Cyprididae,Callistocypridinae,NA,Callistocypris,Callistocypris_mckenziei,NA,Callistocypris_mckenziei,
+Eukaryota,Animalia,Arthropoda,Crustacea,Ostracoda,Podocopa,Podocopida,Cytherocopina,Limnocytheridae,Timiriaseviinae,NA,Elpidium,Elpidium_bromeliarum,NA,Elpidium_bromeliarum,
+Eukaryota,Animalia,Arthropoda,Crustacea,Ostracoda,Podocopa,Podocopida,Cytherocopina,Limnocytheridae,Timiriaseviinae,NA,Elpidium,Elpidium_maracaoensis,NA,Elpidium_maracaoensis,
+Eukaryota,Animalia,Arthropoda,Crustacea,Ostracoda,Podocopa,Podocopida,Cytherocopina,Limnocytheridae,Timiriaseviinae,NA,Elpidium,NA,NA,Elpidium,
+Eukaryota,Animalia,Platyhelminthes,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Platyhelminthes,
+Eukaryota,Animalia,Platyhelminthes,NA,Turbellaria,NA,NA,NA,NA,NA,NA,NA,NA,NA,Turbellaria,
+Eukaryota,Animalia,Mollusca,NA,Gastropoda,Heterobranchia,Panpulmonata,NA,Planorbidae,NA,NA,NA,NA,NA,Planorbidae, subclass
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Trichoptera,Integripalpia,Calamoceratidae,Calamoceratinae,NA,Phylloicus,Phylloicus_bromeliarum,NA,Phylloicus_bromeliarum, subphylum
+NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Paleoptera,Odonata,Zygoptera,Coenagrionidae,NA,NA,Leptagrion,Leptagrion_macrurum,NA,Leptagrion_macrurum,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Trichoptera,NA,NA,NA,NA,NA,NA,NA,Trichoptera, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Coleoptera,Polyphaga,Scirtidae,NA,NA,Contacyphon,NA,NA,Contacyphon, subphylum
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Ceratopogonidae,Dasyheleniae,NA,NA,NA,NA,Dasyheleniae,
+Eukaryota,Animalia,Annelida,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Annelida,
+Eukarya,Animalia,Arthropoda,Hexapoda,Insecta,NA,Diptera,Nematocera,Culicidae,Culicinae,NA,Wyeomyia,Wyeomyia_edwardsi_or_mulhensi_or_theobaldi,NA,Wyeomyia_edwardsi_or_mulhensi_or_theobaldi,
+Eukarya,Animalia,Arthropoda,Hexapoda,Insecta,NA,Odonata,Zygoptera,Coenagrionidae,NA,NA,Leptagrion,Leptagrion_bocainense_or_macrurum,NA,Leptagrion_bocainense_or_macrurum,
+Eukarya,Animalia,Arthropoda,Hexapoda,Insecta,Pterygota,Diptera,Nematocera,Culicidae,Culicinae,NA,NA,NA,NA,Culicinae, subphylum subclass
+Eukarya,Animalia,Arthropoda,NA,Insecta,NA,Diptera,Nematocera,Chironomidae,Chironominae_or_Tanypodinae,NA,NA,NA,NA,Chironominae_or_Tanypodinae,
+Eukarya,Animalia,Arthropoda,Hexapoda,Insecta,Pterygota,Diptera,Nematocera,Ceratopogonidae,NA,NA,NA,NA,NA,Ceratopogonidae, subphylum subclass
+Eukarya,Animalia,Arthropoda,NA,Insecta,NA,Diptera,Nematocera,Culicidae,Culicinae,NA,Wyeomyia,Wyeomyia_abebela_or_ccircumcincta_or_melanopus,NA,Wyeomyia_abebela_or_ccircumcincta_or_melanopus,
+Eukarya,Animalia,Arthropoda,NA,Insecta,NA,Diptera,Nematocera,Culicidae,Culicinae,NA,Culex,Culex_daumastocampa_or_jenningsi_or_rejector,NA,Culex_daumastocampa_or_jenningsi_or_rejector,
+Eukarya,Animalia,Arthropoda,NA,Insecta,NA,Diptera,NA,Culicidae,NA,NA,Anopheles_or_Wyeomia_or_Culex,NA,NA,Anopheles_or_Wyeomia_or_Culex,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Podonominae,NA,NA,NA,NA,Podonominae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,Tabanidae,Pangoniinae,Scioniini,Fidena,NA,NA,Fidena, subphylum tribe
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Chironominae,Chironomini,NA,NA,NA,Chironomini, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Chironominae,Tanytarsini,NA,NA,NA,Tanytarsini, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Hemiptera,Heteroptera,NA,NA,NA,NA,NA,NA,Heteroptera, subphylum
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Toxorhynchites,Toxorhynchites_haemorroidalis,NA,Toxorhynchites_haemorroidalis,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Ceratopogonidae,Dasyheleniae,NA,Dasyhelea,NA,NA,Dasyhelea, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Cecidomyiidae,NA,NA,NA,NA,NA,Cecidomyiidae,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Ceratopogonidae,NA,NA,NA,NA,NA,Ceratopogonidae,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,NA,NA,NA,NA,NA,Culicidae,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Ceratopogonidae,Forcipomyiinae,NA,Forcipomyia,NA,NA,Forcipomyia,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Paleoptera,Odonata,Zygoptera,Coenagrionidae,NA,NA,Leptagrion,NA,NA,Leptagrion,
+Insecta,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,Sabethini,Wyeomyia,Wyeomyia_mitchellii,NA,Wyeomyia_mitchellii, subphylum tribe
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Culicidae,Culicinae,NA,Toxorhynchites,Toxorhynchites_theobaldi,NA,Toxorhynchites_theobaldi, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Corethrellidae,Corethrellinae,NA,Corethrella,NA,NA,Corethrella, subphylum subfamily
+Animalia,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Chironomidae,Orthocladiinae,NA,NA,NA,NA,Orthocladiinae, subphylum
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Nematocera,Tipulidae,Limoniinae,Limoniini,NA,NA,NA,Limoniini,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Coleoptera,Polyphaga,Curculionidae,NA,NA,NA,NA,NA,Curculionidae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Coleoptera,Adephaga,Dytiscidae,Copelatinae,NA,Copelatus,NA,NA,Copelatus, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Coleoptera,Polyphaga,Elateridae,NA,NA,NA,NA,NA,Elateridae, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Brachycera,Muscidae,NA,NA,NA,NA,NA,Muscidae, subphylum
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Diptera,Brachycera,Sarchophagidae,NA,NA,NA,NA,NA,Sarchophagidae,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Paleoptera,Ephemeroptera,NA,NA,NA,NA,NA,NA,NA,Ephemeroptera, subphylum
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Megaloptera,NA,NA,NA,NA,NA,NA,NA,Megaloptera, subphylum
+Eukaryota,Animalia,Nematoda,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nematoda,
+Eukaryota,Animalia,Nematomorpha,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Nematomorpha,
+Eukaryota,Animalia,Annelida,NA,Clitellata,Oligochaeta,Opisthopora�,Crassiclitellata,Acanthodrilidae,NA,NA,Eutrigaster,NA,NA,Eutrigaster,
+Eukaryota,Animalia,Annelida,NA,Clitellata,Oligochaeta,Haplotaxida,Lumbricina,Lumbricidae,NA,NA,NA,NA,NA,Lumbricidae,
+Eukaryota,Animalia,Annelida,NA,Clitellata,Oligochaeta,Opisthopora�,Crassiclitellata,Acanthodrilidae,NA,NA,Neotrigaster,Neotrigaster_complutensis,NA,Neotrigaster_complutensis,
+Eukaryota,Animalia,Annelida,NA,Clitellata,Oligochaeta,Opisthopora�,Crassiclitellata,Acanthodrilidae,NA,NA,Trigaster,Trigaster_yukiyui,NA,Trigaster_yukiyui,
+Eukaryota,Animalia,Arthropoda,NA,Insecta,Neoptera,Coleoptera,Polyphaga,Elateridae,NA,NA,Dipropus,NA,NA,Dipropus,
+Eukaryota,Animalia,Arthropoda,Hexapoda,Insecta,Neoptera,Diptera,Nematocera,Dixidae,NA,NA,NA,NA,NA,Dixidae, subphylum
+Eukaryota,Animalia,Annelida,NA,Clitellata,Hirudinea,Rhynchobdellida,Glossiphoniiformes,Glossiphoniidae,NA,NA,Helobdella,NA,NA,Helobdella, suborder
