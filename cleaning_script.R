@@ -72,3 +72,4 @@ traits_complete <- traits %>%
 # taxonomic data are now fully integrated into dataframe
 
 write_csv(traits_complete,"./clean_data/traits_complete.csv")
+
