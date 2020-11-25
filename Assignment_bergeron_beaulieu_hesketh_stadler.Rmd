@@ -47,9 +47,12 @@ str(traits)
 ## Extract variables of interest and rename to match *taxize*
 
 ```{r}
-# select only variables of interest
-colnames(traits)
-(taxtab <- traits %>% select(bwg_name:subspecies, taxon_level))
+# get only taxonomic-related columns with an id key of taxon_name (lowest resolution taxon)
+traits_tax <- traits %>% 
+  dplyr::select(4:17, 23,24) %>% 
+  # rename columns so tax_name function can recognize levels
+  rename(order = ord, suborder = subord) 
+
 ```
 
 ```{r}
@@ -59,7 +62,7 @@ taxize.levs <- rank_ref %>% separate(ranks, into = c("rank","divisions"), sep = 
   select(rank) %>% as_vector()
 names(taxize.levs) <- NULL # erase rank numbers saved as vector names
 
-# Extract column names that include phylogenetic level
+# Extract column names that include phylogenetic level in our database
 tax.list <- colnames(taxtab)[2:15]
 
 # apply stringdist function to retrieve best matches to taxize names
@@ -89,32 +92,27 @@ taxtab[!is.na(taxtab$taxon_level),"taxon_level"] <- taxize.levs[i]
 
 ---
 
-##
-
-```{r}
-# separate identifier
-abundance <- read_csv("./BWG_database/bwgv1_abundance.csv") %>%
-  separate(bwg_name, into = c("identified.tax", "number"), sep = "[.]")
-
-levels(factor(abundance$identified.tax))
-```
-
-```{r}
-# Correct typo
-```
-
 
 ## Retrieve taxonomy information
 
 
 ```{r}
-# make species names as list
-specieslist <- levels(factor(abundance$identified.tax))
+# All the taxonomic levels we are looking for
+tax.list <- colnames(traits_tax)[1:14]
 
-# "Oligochaeta" appears both as genus and subclass, select 2 for correct classification
-(taxtab <- tax_name(query = c(specieslist), get = c("kingdom","phylum",
-                                         "class","order",
-                                         "family", "genus"), db = "ncbi"))
+# get all unique taxon_name
+sp.list <-unique(traits_tax$taxon_name)
+# get a dataframe with the unique taxon-name and their associated taxa_level 
+# to easily answer to the query of taxa_name function
+sp.list.tax <- unique(traits_tax[,15:16])
+
+# Create a dataframe with the information on each unique species with the taxa-name function
+taxquery <- tax_name(query = c(sp.list), get = tax.list, db = "ncbi")
+# when selection offer you the choice between genus and subgenus, 
+# select always Genus (#2) for correct classification, since there is no subgenus collected 
+
+# save this object in a csv file to avoid to process it each time (It is time consuming)
+write_csv(taxquery,"./BWG_database/tax_class.csv")
 ```
 
 ## Clean output
