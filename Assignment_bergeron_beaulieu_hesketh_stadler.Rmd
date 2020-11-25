@@ -1,0 +1,125 @@
+---
+title: "Data management group assignment"
+author: "Beatrice Gervais-Bergeron, Juliean Beaulieu, Amelia Hesketh, Masumi Stadler"
+date: "24/11/2020"
+output: pdf_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_knit$set(root.dir = "/media/shared/Documents/University/PhD/Courses/DataManagement/Activity_Session5")
+```
+
+# Selected question
+
+Option 1: "Ensure that all higher-level taxonomic information is complete for all invertebrate morphospecies (morphospecies = bwg_names). Note, morphospecies are identified at the lowest level by the researcher (often genus or family). [suggested package: taxize]"
+
+---
+
+# Work flow
+## Set-up
+
+First, correctly identify working directory and properly set the directory.
+```{r}
+# Checking working directory and properly set the correct path
+getwd()
+```
+
+Next, load needed packages.
+```{r}
+pkgs <- c("taxize","stringdist", 
+          "tidyverse")
+#lapply(pkgs, install.packages, character.only = TRUE)
+invisible(lapply(pkgs, library, character.only = TRUE))
+rm(pkgs)
+```
+
+## Read in data
+
+Read in data and explore if column classes are correct.
+```{r}
+#abundance <- read_csv("./BWG_database/bwgv1_abundance.csv")
+traits <- read_csv("./BWG_database/bwgv1_traits.csv")
+
+str(traits)
+```
+
+## Extract variables of interest and rename to match *taxize*
+
+```{r}
+# select only variables of interest
+colnames(traits)
+(taxtab <- traits %>% select(bwg_name:subspecies, taxon_level))
+```
+
+```{r}
+# check phylogenetic level names, do they match taxize spelling?
+# extract taxize level names
+taxize.levs <- rank_ref %>% separate(ranks, into = c("rank","divisions"), sep = ",") %>% 
+  select(rank) %>% as_vector()
+names(taxize.levs) <- NULL # erase rank numbers saved as vector names
+
+# Extract column names that include phylogenetic level
+tax.list <- colnames(taxtab)[2:15]
+
+# apply stringdist function to retrieve best matches to taxize names
+i <- adist(tax.list, taxize.levs) %>% 
+  apply(1, which.min)
+
+data.frame(tax_original = tax.list,
+           tax_repaired = taxize.levs[i]) # looks good
+
+# overwrite
+colnames(taxtab)[2:15] <- taxize.levs[i]
+
+# same for taxon_level column
+# Extract taxon_level as vector, drop NAs = "Unknown"
+tax.list <- taxtab %>% drop_na(taxon_level) %>% select(taxon_level) %>% as_vector()
+
+i <- adist(tax.list, taxize.levs) %>% 
+  apply(1, which.min)
+
+data.frame(tax_original = tax.list,
+           tax_repaired = taxize.levs[i]) # looks good
+
+# overwrite
+taxtab[!is.na(taxtab$taxon_level),"taxon_level"] <- taxize.levs[i]
+
+```
+
+---
+
+##
+
+```{r}
+# separate identifier
+abundance <- abundance %>%
+  separate(bwg_name, into = c("identified.tax", "number"), sep = "[.]")
+
+levels(factor(abundance$identified.tax))
+```
+
+```{r}
+# Correct typo
+
+```
+
+
+## Retrieve taxonomy information
+
+
+```{r}
+# make species names as list
+specieslist <- levels(factor(abundance$identified.tax))
+
+# "Oligochaeta" appears both as genus and subclass, select 2 for correct classification
+(taxtab <- tax_name(query = c(specieslist), get = c("kingdom","phylum",
+                                         "class","order",
+                                         "family", "genus"), db = "ncbi"))
+```
+
+## Clean output
+
+## Combine back with original morphospecies ID
+
+## Export csv
