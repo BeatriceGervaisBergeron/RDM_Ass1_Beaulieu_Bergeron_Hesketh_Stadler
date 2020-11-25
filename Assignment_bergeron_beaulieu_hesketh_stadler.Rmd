@@ -37,7 +37,7 @@ rm(pkgs)
 ## Read in data
 
 Read in data and explore if column classes are correct.
-```{r}
+```{r, echo=FALSE}
 #abundance <- read_csv("./BWG_database/bwgv1_abundance.csv")
 traits <- read_csv("./BWG_database/bwgv1_traits.csv")
 
@@ -93,7 +93,7 @@ taxtab[!is.na(taxtab$taxon_level),"taxon_level"] <- taxize.levs[i]
 
 ```{r}
 # separate identifier
-abundance <- abundance %>%
+abundance <- read_csv("./BWG_database/bwgv1_abundance.csv") %>%
   separate(bwg_name, into = c("identified.tax", "number"), sep = "[.]")
 
 levels(factor(abundance$identified.tax))
