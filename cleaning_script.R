@@ -6,7 +6,7 @@ lapply(pkgs, library,character.only = TRUE)
 ## Import Files ##
 
 ## make a list of files
-myfiles = list.files(path="./raw_data/", pattern = "*.csv", full.names = TRUE)
+myfiles = list.files(path="./BWG_database", pattern = "*.csv", full.names = TRUE)
 
 # import all tables as separate data frames, remove file path and file extensions (.csv)
 list2env(lapply(setNames(myfiles, make.names(gsub(".*1_", "", tools::file_path_sans_ext(myfiles)))), 
