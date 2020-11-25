@@ -101,7 +101,6 @@ levels(factor(abundance$identified.tax))
 
 ```{r}
 # Correct typo
-
 ```
 
 
