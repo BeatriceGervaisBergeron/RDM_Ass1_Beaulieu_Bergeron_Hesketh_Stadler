@@ -39,7 +39,7 @@ rm(pkgs)
 Read in data and explore if column classes are correct.
 ```{r, echo=FALSE}
 #abundance <- read_csv("./BWG_database/bwgv1_abundance.csv")
-traits <- read_csv("./BWG_database/bwgv1_traits.csv")
+traits <- read_csv("./raw_data/bwgv1_traits.csv")
 
 str(traits)
 ```
@@ -112,7 +112,7 @@ taxquery <- tax_name(query = c(sp.list), get = tax.list, db = "ncbi")
 # select always Genus (#2) for correct classification, since there is no subgenus collected 
 
 # save this object in a csv file to avoid to process it each time (It is time consuming)
-write_csv(taxquery,"./BWG_database/tax_class.csv")
+write_csv(taxquery,"./clean_data/tax_class.csv")
 ```
 
 ## Clean output
