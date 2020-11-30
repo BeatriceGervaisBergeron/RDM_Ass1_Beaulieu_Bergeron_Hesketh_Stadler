@@ -38,7 +38,7 @@ traits_tax$taxon_level<-factor(traits_tax$taxon_level,levels=c("domain","kingdom
 # split dataframe rows into lists to keep data frame structure within function
 trait.list <- split(traits_tax, seq(nrow(traits_tax)))
 
-id_match_upstream_levs <- function(x, db = "itis"){
+id_match_upstream_levs <- function(x, db = "ncbi"){
   # define taxonomic levels as factor vector
   tax_levs <- factor(c("domain","kingdom","phylum","subphylum",
                        "class","subclass","order","suborder","family",
@@ -54,43 +54,51 @@ id_match_upstream_levs <- function(x, db = "itis"){
   
   # code to jump up a higher taxonomic level if finest taxonomic resolution does not have a match
   # jumps higher until a match in given database is found
-  i <- 1
-  repeat{
-    up_tax <- as.character(tax_levs[as.integer(tax_levs) < as.integer(x["taxon_level"])-i])
-    db_class <- tax_name(as.character(x[as.integer(x["taxon_level"])-i]),
-                         get = up_tax, db = db)
-    i <- i + 1
-    if(all(is.na(db_class[,-c(1,2)])) == F){
-      break
+  if(all(is.na(db_class[,-c(1,2)]))){
+    i <- 1
+    repeat{
+      up_tax <- as.character(tax_levs[as.integer(tax_levs) < as.integer(x["taxon_level"])-i])
+      db_class <- tax_name(as.character(x[as.integer(x["taxon_level"])-i]),
+                           get = up_tax, db = db)
+      i <- i + 1
+      if(all(is.na(db_class[,-c(1,2)])) == F){
+        break
+      }
     }
   }
   
   # create temporary data frame to compare original and retrieved db taxonomy names
   t <- data.frame(original = as_vector(x[,colnames(x) %in% colnames(db_class)]),
                   db = as_vector(db_class[,-c(1:2)]))
-  # create column for names that will be exported, we keep mainly the original taxonoy names but
+  # create column for names that will be exported, we keep mainly the original taxonomy names but
   # 1. fill NAs with data base
   # 2. If there are mismatches, we keep the data base
   t$final <- t$original
-  
   # if else statement to only fill rows that have NA
   # return message if a NA has been filled
   if(any(is.na(t$original))){
     t[is.na(t$original),"final"] <- t[is.na(t$original),"db"]
     message(paste0("NA has been filled with '", db,"' data base entry"))
-  } else if(any(t$final != t$db)){
+  }
+  
+  if(any(t$final != t$db)){
     # if else statement to find taxonomic levels that
     # show mismatches between original and db entry
     # db entry will overwrite original name and warning message will be returned
     mismatch <- rownames(t[!(t$final %in% t$db),])
     t[rownames(t) %in% mismatch,"final"] <- t[rownames(t) %in% mismatch,"db"]
-    message(paste0("Mismatch in '", mismatch, "', overwriting with '", db, "' data base entry"))
+    comment <- paste0("DB mismatch in ", mismatch,". Replacing ", t[mismatch,"original"],".")
+    message(paste0("Mismatch in '", paste(mismatch, collapse = " "), "', overwriting with '", db, "' data base entry"))
   }
   
   out <- pivot_longer(x, cols = everything(), values_to = "tax")
   out[out$name %in% rownames(t),"tax"] <- t$final
   out <- pivot_wider(out, names_from = name, values_from = tax)
-  
+  if(length(comment) != 0){
+    out$comment <- paste(comment, collapse = " ")
+  } else {
+    out$comment <- NA
+  }
   return(out)
 }
 
