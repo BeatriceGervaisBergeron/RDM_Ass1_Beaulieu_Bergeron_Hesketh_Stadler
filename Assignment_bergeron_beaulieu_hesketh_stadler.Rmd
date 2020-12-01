@@ -1,6 +1,6 @@
 ---
 title: "Data management group assignment"
-author: "Beatrice Gervais-Bergeron, Juliean Beaulieu, Amelia Hesketh, Masumi Stadler"
+author: "Beatrice Gervais-Bergeron, Julien Beaulieu, Amelia Hesketh, Masumi Stadler"
 date: "24/11/2020"
 output: pdf_document
 ---
