@@ -14,6 +14,9 @@ knitr::opts_knit$set(root.dir = "/media/shared/Documents/University/PhD/Courses/
 
 Option 1: "Ensure that all higher-level taxonomic information is complete for all invertebrate morphospecies (morphospecies = bwg_names). Note, morphospecies are identified at the lowest level by the researcher (often genus or family). [suggested package: taxize]"
 
+# Short description
+When researchers are doing taxonomic identification, they focus on the smallest taxonomic level the ID and write it in the datafile. Taxonomic identification can be long and laborious and can even be done on the field (eg. birds, fish and vegetation). It is eften difficult or even impossible to write all the higher level taxonomic information at the moment of the identification, even if this information is often usefull. To complete higher level taxonomic information, we used the database NCBI to find the missing higher level taxonomic information based on the lowest level IDed by the researchers (Spicified in a column). To do so, we created a data frame with the missing informations for each row, find the information in the database using the function tax_names from the package taxize. The missing information is then placed back in the data frame. In this particular case, the lowest level identified is not the same for all toxon and a column with the name of the lowest level identified taxon for a row is needed. A column for each higher level taxonomic level is also needed with names that correspond to the data base used.
+
 ---
 
 # Work flow
@@ -61,16 +64,19 @@ traits_tax <- traits %>%
 
 ```
 
-## Retrieve taxonomy information
+## Retrieve higher level taxonomic information missing for each row by 
+
+# Steps:
+1) identify missing taxonomic information (NA) for each row, 2) create a dataframe with each row as the name of the taxonomic level missing, 3) find the missing taxonomic information in NCBI database using tax_name function, 4) replace the missing information with the information already present.
 ```{r}
 replace_missing_taxa <- function(df){
-  clean_data <- data.frame()
-  levels_replaced <- c()
+  clean_data <- data.frame() # create a dataframe to put clean data
+  levels_replaced <- c() # create a vector to put all the missing taxonomic info of the row
   for (row in 1:nrow(df)){
     x <- df[row,]
     col_names <- colnames(x)
     levels_replaced_row <- c()
-    #names of columns where taxonomic data are missing
+    # create list with the names of columns where taxonomic data are missing (NA). 
     missing <- data.frame(numbers = which(is.na(x)), names = col_names[which(is.na(x))])
     # find taxonomic information based on lowest taxonomic level identified
     tax_names <- tax_name(x$taxon_name, get = missing$names, db = "ncbi")
